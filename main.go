@@ -12,6 +12,7 @@ func main() {
 	beego.Run()
 }
 
+
 func init() {
     orm.RegisterDriver("sqlite", orm.DR_Sqlite)
     orm.RegisterDataBase("default", "sqlite3", "database/orm_test.db")

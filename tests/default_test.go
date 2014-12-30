@@ -7,7 +7,6 @@ import (
 	"runtime"
 	"path/filepath"
 	_ "core/routers"
-
 	"github.com/astaxie/beego"
 	. "github.com/smartystreets/goconvey/convey"
 )

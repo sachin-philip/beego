@@ -14,7 +14,6 @@ func (c *MainController) Get() {
 	c.TplNames = "index.tpl"
 }
 
-
 func (c *MainController) Next() {
 	c.Data["Website"] = "imsach.in"
 	c.Data["Email"] = "me@imsach.in"
