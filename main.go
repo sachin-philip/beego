@@ -4,14 +4,13 @@ import (
 	_ "core/routers"
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	_ "github.com/mattn/go-sqlite3"
+	// _ "github.com/mattn/go-sqlite3"
 	models "core/models"
 )
 
 func main() {
 	beego.Run()
 }
-
 
 func init() {
     orm.RegisterDriver("sqlite", orm.DR_Sqlite)
